@@ -1,0 +1,22 @@
+{
+  "organization": "RealActivity",
+  "homepage": "https://realactivity.ai",
+  "contacts": [
+    { "name": "Paul Swider", "github": "pswider", "email": "pswider@realactivity.com" }
+  ],
+  "components": [
+    {
+      "id": "realactivity-tula",
+      "role": "web-wallet",
+      "name": "Tula",
+      "description": "An open-source patient-agent runtime that stores the patient's longitudinal health record locally in FHIR R4 and pulls records via SMART on FHIR.",
+      "status": "up",
+      "walletUrl": "https://realactivity.github.io/tula/check-in-wallet/",
+      "homepage": "https://github.com/realactivity/tula",
+      "iconUrl": "https://realactivity.github.io/tula/check-in-wallet/icon.svg",
+      "target": "tab",
+      "testPatient": "Dylan Meyer (synthetic, 51). Essential hypertension, prediabetes, hyperlipidemia. Lisinopril 10 mg. Penicillin allergy. Seasonal influenza, COVID-19, and Tdap. No insurance card.",
+      "notes": "Insurance items are returned unavailable (Tula policy: health data only). Opened directly, the page is a landing page; a Verifier must window.open it."
+    }
+  ]
+}
